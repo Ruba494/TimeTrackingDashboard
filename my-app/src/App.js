@@ -13,7 +13,7 @@ function App() {
       <div className="flex items-center justify-center ">
         <div className="flex items-center justify-center lg:m-72 m-10 ">
           <div className="grid grid-col-2 lg:grid-flow-col sm:grid-flow-row gap-4 cards" >
-            <InfoCard name={"Ahmed Almutairi"} profileImg={profileImg} data={data} ></InfoCard>
+            <InfoCard name={"Jeremy Robson"} profileImg={profileImg} data={data} ></InfoCard>
 
 
           </div>
