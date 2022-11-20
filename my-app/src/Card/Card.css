@@ -1,0 +1,30 @@
+@import '../App.css';
+
+.work{
+    background-color: var(--light--red);
+}
+.play{
+    background-color: var(--soft--blue);
+}.study{
+    background-color: var(--light-red--two);
+}
+.exercise{
+    background-color: var(--lime--green);
+}
+.social{
+    background-color: var(--violet);
+}
+.selfcare{
+    background-color: var(--soft--orange);
+}
+
+h3{
+    font-size:50px;
+    font-weight: var(--font--weight1);
+    line-height: 100%;
+}
+a{
+    font-weight: var(--font--weight3);
+}
+
+

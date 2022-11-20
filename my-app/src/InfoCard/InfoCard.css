@@ -1,0 +1,24 @@
+@import '../App.css';
+
+
+
+.info-bg{
+background-color: var(--blue);
+}
+
+.option{
+    font-weight: var(--font--weight3);
+    cursor: default;
+}
+
+.notactive{
+    color: #828282;
+}
+
+.avtive{
+    color: white;
+}
+
+.option:hover{
+    color: white;
+}

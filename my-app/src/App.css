@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+    --very--dark--blue:  hsl(226, 43%, 10%);
+    --dark--blue: hsl(235, 46%, 20%);
+    --pale--dark--blue:#34397B;
+    --desaturated--blue:hsl(235, 45%, 61%);
+    --pale--blue:hsl(236, 100%, 87%);
+    --blue:hsl(246, 80%, 60%);
+    --light--red: hsl(15, 100%, 70%);
+    --soft--blue: hsl(195, 74%, 62%);
+    --light-red--two: hsl(348, 100%, 68%);
+    --lime--green:hsl(145, 58%, 55%);
+    --violet:hsl(264, 64%, 52%);
+    --soft--orange:hsl(43, 84%, 65%);
+    --font--size:18px ;
+    --fonts--family: Consolas;
+    --font--weight1:300;
+    --font--weight2:400;
+    --font--weight3:500;
+
+}
+
+html{
+    background-color:var(--very--dark--blue);
+    color: white;
+    font-family: var(--fonts--family);
+
+}
+
+.cardContaier{
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.cardContaier1{
+    border-radius: 11px;
+}
+.card-bg{
+    background-color:var(--dark--blue);
+    border-radius: 10px;
+}
+
+.card-bg-h{
+    background-color:var(--dark--blue);
+    border-radius: 10px;
+}
+
+.card-bg-h:hover{
+    background-color:var(--pale--dark--blue);
+}
+p{
+    font-weight: var(--font--weight2);
+}
+
+
+h3{
+    font-size:40px;
+    font-weight: var(--font--weight1);
+    line-height: 90%;
+}
+
+
+
